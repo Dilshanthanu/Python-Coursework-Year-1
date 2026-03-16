@@ -12,17 +12,17 @@ def pass_credit():
             continue 
         break
 def defer_credit():
-    while True:
-        try:
-            d=int(input("Please enter your credits at defer:"))
-            if d not in[0,20,40,60,80,100,120]:
-                print("Out of range")
-                continue
-            else:
-                return d
-        except ValueError:
-            print("Integer required")
-            continue
+    # while True:
+    #     try:
+    #         d=int(input("Please enter your credits at defer:"))
+    #         if d not in[0,20,40,60,80,100,120]:
+    #             print("Out of range")
+    #             continue
+    #         else:
+    #             return d
+    #     except ValueError:
+    #         print("Integer required")
+    #         continue
         break
 def fail_credit():
     while True:
